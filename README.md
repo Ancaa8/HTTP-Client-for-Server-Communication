@@ -7,7 +7,6 @@ Construirea request-urilor
 
 -Am facut o functie generalizata (compute_http_request) ce primeste ca si parametru un Enum (HttpMethod { GET, POST, DELETE }) si restul elementelor necesare pentru a construi un request, cele inexistentente fiind setate la NULL.
 -Am implementat o functie (send_http_request), care porneste o conexiune, trimite mesajul folosind functia din laborator si returneaza raspunsul primit de la server.
--Am pornit de la codul din Laboratorul 9, asa ca in afara de compute_http_request si send_http_request, nu am implementat alta functie noua pentru gestionarea request-urilor.
 
 Logica client
 
